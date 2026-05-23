@@ -1,0 +1,33 @@
+name: pretty_barcode
+description: Barcode power from package:barcode with pretty QR rendering from package:pretty_qr_code.
+version: 0.1.0
+homepage: https://github.com/amitsharan/pretty_barcode
+repository: https://github.com/amitsharan/pretty_barcode
+issue_tracker: https://github.com/amitsharan/pretty_barcode/issues
+topics:
+  - barcode
+  - qr
+  - pretty-qr
+  - flutter
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+  flutter: ">=3.41.0"
+
+dependencies:
+  barcode: ^2.2.9
+  flutter:
+    sdk: flutter
+  pretty_qr_code: ^3.11.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  test: ^1.25.6
+
+dependency_overrides:
+  barcode:
+    path: ../dart_barcode/barcode
+  pretty_qr_code:
+    path: ../flutter_pretty_qr
