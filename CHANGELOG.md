@@ -6,3 +6,4 @@
 - Render QR codes through `PrettyQrView` by default.
 - Add `PrettyBarcodeOptions` and `PrettyBarcodeQrOptions`.
 - Add `PrettyBarcodeSvg` for SVG export.
+- Add `pretty_barcode_core.dart` for pure Dart consumers.

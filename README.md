@@ -53,6 +53,13 @@ class TicketCode extends StatelessWidget {
 }
 ```
 
+Pure Dart packages can import only the barcode encoder surface without pulling
+in Flutter:
+
+```dart
+import 'package:pretty_barcode/pretty_barcode_core.dart';
+```
+
 ## SVG
 
 ```dart
